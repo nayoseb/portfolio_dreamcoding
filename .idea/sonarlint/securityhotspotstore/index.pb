@@ -1,0 +1,23 @@
+
+9
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+:
+
+index.html,f/6/f6013a00b362253c64368d6eebc50ea2131754e2
+B
+src/active_menu.js,7/3/738de3ddeda403f48a61631e506d0e80c6cc744e
+=
+css/style.css,1/2/126b0f8c1ec95fb3a2541745bfc21365b438d668
+;
+src/main.js,4/1/41d348bfb8135a570c1d2675c884f60724201c5c
+?
+src/projects.js,2/5/25971a0647c1872be68f2e1605f5c04c364d6f15
+;
+src/type.js,4/1/41a29f1bf3f429d16f043ded123f17efc11bc17b
+>
+.gitattributes,2/4/24139dae656713ba861751fb2c2ac38839349a7a
+9
+	gitignore,6/f/6f819b366cb83f2e62d7b8b23b65c2e28c01306a
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302

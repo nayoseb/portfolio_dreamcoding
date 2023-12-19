@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- SEO -->
+    <title>Nagukro&#39;s Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio for world-renowned software
+    engineer 나국로"
+    />
+    <meta name="author" content="나국로" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <!-- OG (Open Graph Data) -->
+    <meta property="og:title" content="나국로의 포트폴리오" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://dream-ellie.github.io/portfolio/"
+    />
+    <meta
+      property="og:image"
+      content="https://dream-ellie.github.io/portfolio/images/og.webp"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/9eb162ac0d.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Typeit -->
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Javascript -->
+    <script type="module" src="src/main.js" defer></script>
+    <script type="module" src="src/projects.js" defer></script>
+    <script type="module" src="src/active_menu.js" defer></script>
+    <script type="module" src="src/type.js" defer></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="header__logo">
+        <img class="header__logo__img" src="images/favicon.ico" alt="logo" />
+        <h1 class="header__logo__title"><a href="#">Nayoseb</a></h1>
+      </div>
+      <nav class="header__nav">
+        <ul class="header__menu">
+          <li><a class="header__menu__item active" href="#home">Home</a></li>
+          <li><a class="header__menu__item" href="#about">About</a></li>
+          <li><a class="header__menu__item" href="#skills">Skills</a></li>
+          <li><a class="header__menu__item" href="#work">My work</a></li>
+          <li>
+            <a class="header__menu__item" href="#testimonial">Testimonial</a>
+          </li>
+          <li><a class="header__menu__item" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="header__toggle" aria-label="navigation menu toggle">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </header>
+    <!-- Main -->
+    <main>
+      <!-- Home -->
+      <section id="home">
+        <div class="max-container home__container">
+          <img
+            class="home__avatar"
+            src="images/profile.png"
+            alt="Yoseb's profile"
+          />
+          <div>
+            <h2 class="home__title" aria-label="Hello, I'm Dream Coder Yoseb">
+              Hello <br />I&#39;m
+              <strong class="home__title--strong">Dream Coder</strong>, Yoseb
+            </h2>
+            <p class="home__description">
+              실용적이고 효율적인 소프트웨어를 만드는 것을 좋아하는 개발자입니다. 사용자 친화적인 디자인과 안정적인 기능을 중요하게 생각하며, 항상 새로운 것을 배우는 데 열린 마음을 가지고 있습니다.
+            </p>
+            <a class="home__contact" href="#contact">Contact Me</a>
+          </div>
+        </div>
+      </section>
+      <!-- About -->
+      <section id="about" class="section max-container">
+        <h2 class="title">About me</h2>
+        <p class="description">
+          항상 새로운 것을 탐구하는 열정으로 개발의 세계에 뛰어들었습니다.
+          깔끔한 코드 작성과 지속 가능한 개발 방식에 집중하면서, 끊임없이 배우고 성장하는 것을 즐깁니다.
+          현실적인 문제 해결과 이론적인 지식을 균형있게 활용하는 것을 중요하게 생각하며,
+          예술적인 아름다움 🎨, 맛있는 커피 ☕️, 그리고 함께 성장하는 커뮤니티 에 관심이 많습니다.
+        </p>
+        <ul class="majors">
+          <li class="major">
+            <i class="fa-solid fa-server major__icon"></i>
+            <p class="major__title">Back-end</p>
+            <p>Java, Spring boot</p>
+          </li>
+          <li class="major">
+            <i class="fa-brands fa-html5 major__icon"></i>
+            <p class="major__title">Front-end</p>
+            <p>HTML, CSS, JavaScript</p>
+          </li>
+          <li class="major">
+            <i class="fa-solid fa-database major__icon"></i> <!-- 아이콘 변경 -->
+            <p class="major__title">Database</p> <!-- 제목 변경 -->
+            <p>MySQL, MySQL Workbench</p> <!-- 내용 변경 -->
+          </li>
+        </ul>
+        <ul class="jobs">
+          <li class="job">
+            <img src="images/jobs/nhnacademy.png" alt="nhnacademy logo" />
+            <div>
+              <p class="job__name">NHN 아카데미 JAVA 백엔드 개발과정</p>
+              <p class="job__period">2023 Jul -  Until now</p>
+            </div>
+          </li>
+          <li class="job">
+            <img src="images/jobs/codestates.png" alt="codestates logo" />
+            <div>
+              <p class="job__name">코드스테이츠 백엔드 부트캠프</p>
+              <p class="job__period">2022 Oct - 2023 Apr </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <!-- Skills -->
+      <section id="skills" class="section">
+        <div class="max-container">
+          <h2 class="title">My Skills</h2>
+          <p class="description">Skills & Attributes</p>
+          <p>
+            저는 다양한 기술적 배경과 끊임없는 학습 열정을 가진 소프트웨어 개발자입니다.
+            최신 프로그래밍 언어와 프레임워크에 대한 깊은 이해를 바탕으로 효율적이고 혁신적인 솔루션을 제공합니다.
+            복잡한 문제를 해결하기 위한 창의적인 접근과 뛰어난 분석 능력을 가지고 있으며, 팀 프로젝트에서는 의사소통과
+            협업을 중시하며 기여합니다. 지속적인 기술 발전에 대한 관심과 적응력으로 끊임없이 새로운 도전을 추구하며,
+            팀과 조직에 가치를 더하는 개발자입니다.
+          </p>
+          <div class="skills">
+            <section class="skills__coding">
+              <h3 class="skills__title">Coding Skills</h3>
+              <ul>
+                <li class="bar">
+                  <div class="bar__metadata">
+                    <span>JAVA</span><span>90%</span>
+                  </div>
+                  <div class="bar__bg">
+                    <div class="bar__value" style="width: 90%"></div>
+                  </div>
+                </li>
+                <li class="bar">
+                  <div class="bar__metadata">
+                    <span>Spring boot</span><span>90%</span>
+                  </div>
+                  <div class="bar__bg">
+                    <div class="bar__value" style="width: 90%"></div>
+                  </div>
+                </li>
+                <li class="bar">
+                  <div class="bar__metadata">
+                    <span>HTML</span><span>80%</span>
+                  </div>
+                  <div class="bar__bg">
+                    <div class="bar__value" style="width: 80%"></div>
+                  </div>
+                </li>
+                <li class="bar">
+                  <div class="bar__metadata">
+                    <span>CSS</span><span>80%</span>
+                  </div>
+                  <div class="bar__bg">
+                    <div class="bar__value" style="width: 80%"></div>
+                  </div>
+                </li>
+                <li class="bar">
+                <div class="bar__metadata">
+                    <span>JavaScript</span><span>70%</span>
+                  </div>
+                  <div class="bar__bg">
+                    <div class="bar__value" style="width: 70%"></div>
+                  </div>
+                </li>
+              </ul>
+            </section>
+            <section class="skills__tools">
+              <h3 class="skills__title">Tools</h3>
+              <ul>
+                <li>IntelliJ</li>
+                <li>Visual Studio Code</li>
+                <li>MySQL Workbench</li>
+              </ul>
+            </section>
+            <section class="skills__etc">
+              <h3 class="skills__title">Etc</h3>
+              <ul>
+                <li>Git</li>
+                <li>Github</li>
+                <li>Github Actions</li>
+                <li>AWS EC2</li>
+                <li>AWS RDS</li>
+                <li>AWS S3</li>
+                <li>AWS Route53</li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </section>
+      <!-- Work -->
+      <section id="work" class="section">
+        <div class="max-container">
+          <h2 class="title">My work</h2>
+          <p class="description">Projects</p>
+          <ul class="categories">
+            <li>
+              <button class="category category--selected" data-category="all">
+                All <span class="category__count">8</span>
+              </button>
+            </li>
+            <li>
+              <button class="category" data-category="front-end">
+                Front-end <span class="category__count">4</span>
+              </button>
+            </li>
+            <li>
+              <button class="category" data-category="back-end">
+                Back-end <span class="category__count">2</span>
+              </button>
+            </li>
+            <li>
+              <button class="category" data-category="mobile">
+                Mobile <span class="category__count">2</span>
+              </button>
+            </li>
+          </ul>
+          <ul class="projects">
+            <li class="project" data-type="front-end">
+              <a href="https://docs.google.com/presentation/d/1T7GYeQth-XnI1Lk7mteVrN7VRSHAjOwew6_yy9oJxCU/edit#slide=id.p1" target="_blank">
+                <img
+                  src="images/projects/project1.webp"
+                  alt="project1"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">Project #1</h3>
+                  <p>Clone Coding with HTML, CSS</p>
+                </div>
+              </a>
+            </li>
+            <li class="project" data-type="front-end">
+              <a href="#" target="_blank">
+                <img
+                  src="images/projects/project2.webp"
+                  alt="project2"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">Project #2</h3>
+                  <p>Clone Coding with HTML, CSS</p>
+                </div>
+              </a>
+            </li>
+            <li class="project" data-type="back-end">
+              <a href="#" target="_blank">
+                <img
+                  src="images/projects/project3.webp"
+                  alt="project3"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">Project #3</h3>
+                  <p>Clone Coding with HTML, CSS</p>
+                </div>
+              </a>
+            </li>
+            <li class="project" data-type="mobile">
+              <a href="#" target="_blank">
+                <img
+                  src="images/projects/project4.webp"
+                  alt="project4"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">Project #4</h3>
+                  <p>Clone Coding with HTML, CSS</p>
+                </div>
+              </a>
+            </li>
+            <li class="project" data-type="front-end">
+              <a href="#" target="_blank">
+                <img
+                  src="images/projects/project5.webp"
+                  alt="project5"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">Project #5</h3>
+                  <p>Clone Coding with HTML, CSS</p>
+                </div>
+              </a>
+            </li>
+            <li class="project" data-type="back-end">
+              <a href="#" target="_blank">
+                <img
+                  src="images/projects/project6.webp"
+                  alt="project6"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">Project #6</h3>
+                  <p>Clone Coding with HTML, CSS</p>
+                </div>
+              </a>
+            </li>
+            <li class="project" data-type="mobile">
+              <a href="#" target="_blank">
+                <img
+                  src="images/projects/project7.webp"
+                  alt="project7"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">Project #7</h3>
+                  <p>Clone Coding with HTML, CSS</p>
+                </div>
+              </a>
+            </li>
+            <li class="project" data-type="front-end">
+              <a href="#" target="_blank">
+                <img
+                  src="images/projects/project8.webp"
+                  alt="project8"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">Project #8</h3>
+                  <p>Clone Coding with HTML, CSS</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- Testimonials -->
+      <section id="testimonial" class="section max-container">
+        <h2 class="title">Testimonial</h2>
+        <p class="description">See what they say about me</p>
+        <ul class="testimonials">
+          <li class="testimonial">
+            <img
+              src="images/testimonials/people1.webp"
+              alt="people1"
+              class="testimonial__img"
+            />
+            <div class="testimonial__bubble">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem ad
+                iusto, ea alias, at sit libero laboriosam eaque eum, reiciendis
+                obcaecati vitae non reprehenderit beatae officiis. Dolore
+                corporis eveniet labore.
+              </p>
+              <p>
+                <a href="#" class="testimonial__bubble__name">James Kim</a>
+                /Google
+              </p>
+            </div>
+          </li>
+          <li class="testimonial">
+            <img
+              src="images/testimonials/people2.webp"
+              alt="people2"
+              class="testimonial__img"
+            />
+            <div class="testimonial__bubble">
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure
+                adipisci quibusdam perspiciatis neque consequuntur nostrum
+                quisquam dolore consequatur voluptatum animi laborum, sequi
+                ipsum rerum voluptatibus sit ab similique quos velit?
+              </p>
+              <p>
+                <a href="#" class="testimonial__bubble__name">Anna Jin</a>
+                /Samsung
+              </p>
+            </div>
+          </li>
+          <li class="testimonial">
+            <img
+              src="images/testimonials/people3.webp"
+              alt="people3"
+              class="testimonial__img"
+            />
+            <div class="testimonial__bubble">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis, mollitia. Fugiat recusandae unde ducimus harum
+                voluptas earum reiciendis expedita inventore quas ab eum
+                dignissimos, maiores deleniti officiis qui, repudiandae
+                voluptatibus?
+              </p>
+              <p>
+                <a href="#" class="testimonial__bubble__name">Anna Jin</a>
+                /Samsung
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <!-- Arrow up -->
+      <aside>
+        <a class="arrow-up" href="#home" title="back to top">
+          <i class="fa-solid fa-arrow-up"></i>
+        </a>
+      </aside>
+    </main>
+    <!-- Footer -->
+    <footer id="contact" class="section">
+      <div class="max-container">
+        <h2 class="title">Let&#39;s talk</h2>
+        <p class="description">nayoseb1018@gmail.com</p>
+        <ul class="contact__links">
+          <li>
+            <a
+              class="contact__link"
+              href="https://github.com/nayoseb"
+              target="_blank"
+              title="my github link"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              class="contact__link"
+              href="https://github.com/nayoseb"
+              target="_blank"
+              title="my linkedin link"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </li>
+        </ul>
+        <p>ⓒDream Coding Yoseb - All rights reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>
